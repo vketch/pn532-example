@@ -1,2 +1,2 @@
 # pn532-example
-example of using NFC pn532 module
+example of using https://github.com/vketch/pn532
