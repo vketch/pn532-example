@@ -4,3 +4,5 @@ projectfiles
 *.py*
 
 pn532
+BUILD
+mbed-os
