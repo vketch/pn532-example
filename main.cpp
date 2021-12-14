@@ -11,8 +11,8 @@
 #define NOTE_G7 3136
 
 // BusOut leds(LED1, LED2, LED3, LED4);
-PN532 rfid(PA_7, PA_6, PA_5, D4);
-//PN532 rfid(PB_5, PB_4, PB_3, PF_14);
+//PN532 rfid(D11/*PA_7*/, D12/*PA_6*/, D13/*PA_5*/, D4);
+PN532 rfid(D22/*PB_5*/, D25/*PB_4*/, D23/*PB_3*/, D4/*PF_14*/);
 //PN532 rfid(PB_5, PB_4, PB_3, D4);
 Timer readTimer; 
 // PwmOut speaker(p21);
